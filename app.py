@@ -861,7 +861,7 @@ st.markdown("""
     </div>
     <div class="hero-title">DidYouThough?</div>
     <div class="hero-subtitle">
-        Turn <strong>"I'll take care of it"</strong> into a visible, trackable commitments graph — 
+        Turning <strong>procrastinations</strong> into a visible, trackable commitments graph — 
         without adding more tools for people to ignore.
     </div>
 </div>
