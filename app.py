@@ -44,6 +44,22 @@ st.markdown("""
         color: var(--text-primary);
     }
 
+    /* === STEALTH MODE === */
+    /* Hides the top right hamburger menu (which has 'View App Source') */
+    #MainMenu {visibility: hidden;}
+    
+    /* Hides the 'Made with Streamlit' footer */
+    footer {visibility: hidden;}
+    
+    /* Hides the 'Deploy' button if you are the owner */
+    .stDeployButton {display: none;}
+    
+    /* Hides the top colored decoration bar */
+    [data-testid="stDecoration"] {display: none;}
+    
+    /* Hides the entire top toolbar (nuclear option) */
+    [data-testid="stToolbar"] {visibility: hidden;}
+
     /* Animated background */
     .stApp {
         background: var(--bg-primary);
@@ -1203,3 +1219,4 @@ with tab_meetings:
                             st.error(f"⚠ {r}")
                     else:
                         st.caption("No risks identified.")
+
