@@ -1,0 +1,33 @@
+Alex: Alright, let’s get started. I know we're tight on time. Main goal today is just figuring out if we can actually hit the November 15th target for the iOS refresh.
+
+Sarah: Honestly, I don't see how. The design team is still waiting on the new brand assets from Marketing. I pinged Jason about it yesterday, but he said they're "iterating." If we don't get those icons by this Friday, development stalls completely.
+
+Jason: Look, I can push the agency again, but they’re complaining about the scope creep. I’ll try to get at least the finalized logo and color palette to you by Thursday afternoon. But someone needs to sign off on the budget increase for the rush fee.
+
+Alex: Fine, I’ll approve the extra $2k if it guarantees delivery this week. Just get it done.
+
+Mike (Eng): Even if we get the assets, there's a bigger issue. We found a memory leak in the beta build yesterday when testing on older iPhones. It’s causing crashes on the iPhone 11. We can't ship with that.
+
+Alex: How long to fix?
+
+Mike: Hard to say. I need to pull Sanjay off the web dashboard project to help debug. He’s the only one who knows that legacy code.
+
+Alex: Okay, let's do that. Pause the dashboard work for now. Sanjay is moved to mobile stability effective immediately. Mike, I need you to own the fix. Can you give me a status update by Monday morning?
+
+Mike: Yeah, I can do that.
+
+Sarah: Also, are we still doing the 'Dark Mode' feature for launch? Because the QA team hasn't even started testing that yet.
+
+Alex: Good point. Let's cut Dark Mode from v1. It’s too risky. We’ll push it to the January update.
+
+Jason: Sales isn't going to like that. They promised it to the Enterprise client.
+
+Alex: I’ll handle Sales. Better to ship a stable light mode than a broken dark mode. So, decision is made: Dark Mode is out for Q4.
+
+Sarah: One last thing – the App Store screenshots. I totally forgot we need to update those with the new UI.
+
+Jason: I can take a stab at that, but I don't have the raw files.
+
+Sarah: I'll send you the Figma links after this call. You need to upload them to App Store Connect before the review submission on the 10th.
+
+Alex: Alright, let's break. I'm worried that if Apple rejects the build because of that crash, we miss the Black Friday window entirely. That’s a massive revenue risk we need to flag to leadership.
